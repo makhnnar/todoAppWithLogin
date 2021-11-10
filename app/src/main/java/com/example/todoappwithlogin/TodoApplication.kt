@@ -4,7 +4,7 @@ package com.example.todoappwithlogin
 
 import android.app.Application
 import androidx.databinding.library.BuildConfig
-import com.pedrogomez.taskfollower.di.*
+import com.example.todoappwithlogin.di.*
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

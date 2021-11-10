@@ -1,4 +1,4 @@
-package com.pedrogomez.taskfollower.di
+package com.example.todoappwithlogin.di
 
 import com.example.todoappwithlogin.addedittask.AddEditTaskViewModel
 import com.example.todoappwithlogin.statistics.StatisticsViewModel

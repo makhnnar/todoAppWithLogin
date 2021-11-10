@@ -1,4 +1,4 @@
-package com.pedrogomez.taskfollower.di
+package com.example.todoappwithlogin.di
 
 import androidx.room.Room
 import com.example.todoappwithlogin.data.source.DefaultTasksRepository
@@ -21,7 +21,7 @@ val dbInstance = module {
 val localRepository = module{
     single{
         TasksLocalDataSource(
-            get()
+            get<ToDoDatabase>().taskDao()
         )
     }
 }
